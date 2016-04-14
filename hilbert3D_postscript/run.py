@@ -1,6 +1,6 @@
 import os
 os.system("python main.py 5 500 250 70 0 0 0 32 -38 > pics/default.ps")
-# 						  N  S   U  D  X Y Z PHI PSI 
+#                         N  S   U  D  X Y Z PHI PSI 
 '''
 Written in python 2.7
 
