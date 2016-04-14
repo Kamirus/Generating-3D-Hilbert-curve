@@ -4,11 +4,13 @@
 
 1) hilbert3D_postscript directory includes code, which generates 3D curve, modifies it by rotation and projection. Then it's printing postscript file with that modified curve.
 
-Run run.py to see example 
+Run run.py to see example:
+
+	$ python run.py
 
 Also arguments for this script are explained there
 
-GhostScript can convert ps file into pdf with that comand
+GhostScript can convert ps file into pdf with that comand:
 
 	$ ps2pdf ps_file.ps pdf_file.pdf
 
