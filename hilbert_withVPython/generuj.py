@@ -48,6 +48,6 @@ def gen(lista, sr, n, _0, _1, _2, _3, _4, _5, _6, _7 ):
 	ile = wyk_krok(lista,v,ile, _0, _1, _2, _3, _4, _5, _6, _7 )
 	gen(lista, lista[-1], n-1, _6, _5, _2, _1, _0, _3, _4, _7)
 
-''' only function to be imported '''
+''' Only this function is imported '''
 def hilbert3D(lista, n):
 	gen(lista, lista[-1],n, 0, 1, 2, 3, 4, 5, 6, 7 )
