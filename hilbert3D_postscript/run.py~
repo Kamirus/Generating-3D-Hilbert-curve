@@ -1,0 +1,8 @@
+import os
+os.system("python main.py 5 500 250 70 0 0 0 32 -38 > pics/default.ps")
+# info for FIRST ARGUMENT (here 5): more than 7 is hard. Belive me.
+'''
+Written in python 2.7
+
+Example comand with arguments
+'''
