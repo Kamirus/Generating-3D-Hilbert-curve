@@ -7,7 +7,7 @@
 	Run run.py to see example 
 Also arguments for this script are explained there
 
-GhostScript can convert ps file into pdf with that comand:
+GhostScript can convert ps file into pdf with that comand
 	$ps2pdf ps_file.ps pdf_file.pdf
 
 
