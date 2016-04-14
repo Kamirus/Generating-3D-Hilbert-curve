@@ -37,7 +37,7 @@ def resize( lista, k ):
 		res.append( (i[0]*k, i[1]*k, i[2]*k) )
 	return res
 
-''' only function to be imported ''' 
+''' Only this function is imported ''' 
 def mod(lista, n):
 	res = []
 	CC = float(2**n - 1) / 2
