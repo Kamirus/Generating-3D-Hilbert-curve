@@ -23,7 +23,7 @@ def obrocX(vec, angle):
 		y*co - z*si,
 		y*si + z*co)
 
-def rzut(vec,d): # d - odleglosc od obserwatora
+def rzut(vec,d):
 	x = vec[0]
 	y = vec[1]
 	z = vec[2]
@@ -37,11 +37,11 @@ def resize( lista, k ):
 		res.append( (i[0]*k, i[1]*k, i[2]*k) )
 	return res
 
-''' ta funkcje udostepniamy ''' 
+''' only function to be imported ''' 
 def mod(lista, n):
 	res = []
 	CC = float(2**n - 1) / 2
 	for i in lista:
-		i = (i[0]-CC, i[1]+CC, i[2]-CC) # wysrodkuj figure wzgledem X,Y,Z
+		i = (i[0]-CC, i[1]+CC, i[2]-CC) # centers
 		res.append( i )
 	return res
